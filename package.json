@@ -1,4 +1,13 @@
 {
+  "name": "tritonfitness",
+  "version": "1.0.0",
+  "homepage": "https://Pgerardocastaneda.github.io/CSE110-TritonFitness",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+
+{
   "scripts": {
     "test": "jest"
   },
