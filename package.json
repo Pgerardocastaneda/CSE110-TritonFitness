@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "homepage": "https://Pgerardocastaneda.github.io/CSE110-TritonFitness",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-  },
-
-{
-  "scripts": {
-    "test": "jest"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@react-oauth/google": "^0.12.1",
-    "jwt-decode": "^4.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.1.5",
+    "gh-pages": "^5.0.0"
   }
 }
